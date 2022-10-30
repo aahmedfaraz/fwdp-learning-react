@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "title": "Fine Glasses",
+            "price": 100,
+            "slug": "fine-glasses"
+        },
+        {
+            "id": 1,
+            "title": "Ladies Purse",
+            "price": 100,
+            "slug": "ladies-purse"
+        },
+        {
+            "id": 2,
+            "title": "Wrist Watch",
+            "price": 100,
+            "slug": "wrist-watch"
+        }
+    ]
+}
