@@ -1,11 +1,20 @@
 import React from 'react'
 import './App.css';
 
+// import components
+import Form from './components/Form';
+import TodoList from './components/TodoList';
+
+// import state
+import TodoState from './context/todo/TodoState';
+
 const App = () => {
   return (
-    <div>
-      <h1>Context API</h1>
-    </div>
+    <TodoState>
+      <h1>Todo App</h1>
+      <Form />
+      <TodoList />
+    </TodoState>
   )
 }
 
